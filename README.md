@@ -1,5 +1,8 @@
-# Comparing Natural Language Embeddings for Libc Functions as Rich Labels
+## Comparing Natural Language Embeddings for Libc Functions as Rich Labels
+My bachelor's thesis for the program of study 'Computer Science plus Mathematics' at the 
+Ludwig Maximilian University of Munich.
 
+### Abstract
 In recent years, there have been great advances in encoding natural languages in real-valued
 vectors. This progress can be used to generate embeddings out of natural language information
 in C source code. These embeddings can then be used to train a neural network with supervised
@@ -18,3 +21,13 @@ a formula. Finally, the Code Llama, Code2Vec, function comment and function name
 compared qualitatively using t-SNE. After qualitative and quantitative evaluation, the embeddings
 can be ranked in descending order of quality as follows: Code llama vectors, function name vectors,
 function comment vectors and Code2Vec vectors.
+
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d74cb206-9533-4f4f-a782-8d0f54e6d5e9" alt="drawing" width="800"/>
+
+  <img src="https://github.com/user-attachments/assets/d06934ec-d3bf-4705-b842-b1bcf27cf22c" alt="drawing" width="800"/>
+
+  <img src="https://github.com/user-attachments/assets/74f11cd1-de22-4813-b33d-556e95744a63" alt="drawing" width="800"/>
+</p>
